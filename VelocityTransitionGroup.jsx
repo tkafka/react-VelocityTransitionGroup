@@ -4,7 +4,7 @@
 
 var Velocity = require('velocity-animate');
 
-var React = require('../../util/oneReact.js');
+var React = require('react');
 
 var ReactTransitionGroup = React.addons.TransitionGroup;
 
