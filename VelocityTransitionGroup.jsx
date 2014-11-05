@@ -72,12 +72,6 @@ var VelocityTransitionGroupChild = React.createClass({
 		return transitions[this.props.transitionName] || transitions.default;
 	},
 
-	componentWillMount: function() {
-	},
-
-	componentWillUnmount: function() {
-	},
-
 	componentWillEnter: function(done) {
 		var node = this.getDOMNode();
 		var transition = this._getTransition();
