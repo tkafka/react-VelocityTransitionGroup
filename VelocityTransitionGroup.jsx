@@ -2,7 +2,7 @@
  * Adapted from https://github.com/Khan/react-components/blob/master/js/timeout-transition-group.jsx
  */
 
-var React = require('react');
+var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
 var Velocity = require('velocity-animate');
 
